@@ -17,6 +17,7 @@ def create_app(test_config=None):
 
     # Setup database
     db.init_app(app)
+    db.create_all()
 
     # Setup Paths
     from . import users,posts
