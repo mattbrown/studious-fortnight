@@ -17,4 +17,5 @@
 3. In the portal, Create a new service. Name it `microblog`
    1. set the *host name* to `postgres`
    2. The service password is `root`
-4. In the admin console, create a new database named `takehome`
+4. Repeat step 3 for a database named `test`
+4. In the admin console, create a new database named `microblog`
